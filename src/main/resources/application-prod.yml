@@ -1,0 +1,58 @@
+server:
+  port: 23232
+
+spring:
+  profiles:
+    active: dev
+  application:
+    name: homelink-app-portal
+  jmx:
+    default-domain: ${spring.application.name}
+
+  datasource:
+    username: loans_portal
+    password: "A:mzXW;pp6[ifaw/,F}PQ=4(}*x8pi?hrSagL3{wZ[rCgpf?-}"
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:23879/homelink_loans?autoReconnect=true&createDatabaseIfNotExist=true&useSSL=false&serverTimezone=Africa/Harare&rewriteBatchedStatements=true&nullCatalogMeansCurrent=true&allowPublicKeyRetrieval=true
+    initialization-mode: always
+  flyway:
+    user: loans_portal
+    password: "A:mzXW;pp6[ifaw/,F}PQ=4(}*x8pi?hrSagL3{wZ[rCgpf?-}"
+    schemas: homelink_loans
+    url: jdbc:mysql://localhost:23879/vid_applications?autoReconnect=true&createDatabaseIfNotExist=true&useSSL=false&serverTimezone=Africa/Harare&rewriteBatchedStatements=true&nullCatalogMeansCurrent=true
+    baseline-on-migrate: true
+    validate-on-migrate: false
+  jpa:
+    hibernate:
+      ddl-auto: update
+      org.hibernate.envers.audit_table_suffix: _AUDIT_LOG
+    show-sql: false
+    database: mysql
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+  mail:
+    host: smtp.sendgrid.net
+    port: 25
+    username: apikey
+    password: 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
+#    test-connection: true
+    properties:
+      mail:
+        smtp:
+          starttls:
+            enable: true
+          auth: true
+        info: true
+      protocol: smtp
+  main:
+    allow-bean-definition-overriding: true
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 30MB
+
+jwt:
+  secret: cdyiawblefwerufrnavjsdv;dofnrefgnirnkdmcnOKEWDJASKNDFJSNCSCJNDAJJBSDJKCSDjndnsdklanfdfvnduvvnjfvfinfj
+
+

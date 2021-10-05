@@ -1,0 +1,17 @@
+com/codevirtus/membershipsystem/auditlibrary/config/AuditSpringBeansFactory.class
+com/codevirtus/membershipsystem/auditlibrary/security/SecurityContextHolderIdentity.class
+com/codevirtus/membershipsystem/auditlibrary/audit/CreateAuditEvent.class
+com/codevirtus/membershipsystem/auditlibrary/annotations/Action.class
+com/codevirtus/membershipsystem/auditlibrary/audit/Origin.class
+com/codevirtus/membershipsystem/auditlibrary/audit/Resource.class
+com/codevirtus/membershipsystem/auditlibrary/audit/ActionStatus.class
+com/codevirtus/membershipsystem/auditlibrary/annotations/Auditable.class
+com/codevirtus/membershipsystem/auditlibrary/audit/ActionType.class
+com/codevirtus/membershipsystem/auditlibrary/audit/AuditCommand.class
+com/codevirtus/membershipsystem/auditlibrary/aspect/AuditAspect.class
+com/codevirtus/membershipsystem/auditlibrary/audit/AuditTrailRepo.class
+com/codevirtus/membershipsystem/auditlibrary/audit/Action.class
+com/codevirtus/membershipsystem/auditlibrary/security/SecurityContextHolderIdentityImpl.class
+com/codevirtus/membershipsystem/auditlibrary/annotations/Resource.class
+com/codevirtus/membershipsystem/auditlibrary/annotations/Origin.class
+com/codevirtus/membershipsystem/auditlibrary/audit/AuditTrailRepoImpl.class

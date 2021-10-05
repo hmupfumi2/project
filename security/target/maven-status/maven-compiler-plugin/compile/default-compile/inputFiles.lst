@@ -1,0 +1,13 @@
+/home/shepherd/projects/Membership/membership-system-core/security/src/main/java/com/codevirtus/membershipsystem/service/AuthenticationService.java
+/home/shepherd/projects/Membership/membership-system-core/security/src/main/java/com/codevirtus/membershipsystem/acesscontrol/PlatformAuthorities.java
+/home/shepherd/projects/Membership/membership-system-core/security/src/main/java/com/codevirtus/membershipsystem/jwt/JwtUserDetailsService.java
+/home/shepherd/projects/Membership/membership-system-core/security/src/main/java/com/codevirtus/membershipsystem/api/AuthenticationRestController.java
+/home/shepherd/projects/Membership/membership-system-core/security/src/main/java/com/codevirtus/membershipsystem/acesscontrol/PlatformGroupsDatabaseInitializer.java
+/home/shepherd/projects/Membership/membership-system-core/security/src/main/java/com/codevirtus/membershipsystem/acesscontrol/PlatformAuthoritiesDatabaseInitializer.java
+/home/shepherd/projects/Membership/membership-system-core/security/src/main/java/com/codevirtus/membershipsystem/JwtSecurityConfiguration.java
+/home/shepherd/projects/Membership/membership-system-core/security/src/main/java/com/codevirtus/membershipsystem/jwt/JwtTokenUtil.java
+/home/shepherd/projects/Membership/membership-system-core/security/src/main/java/com/codevirtus/membershipsystem/jwt/JwtAuthenticationEntryPoint.java
+/home/shepherd/projects/Membership/membership-system-core/security/src/main/java/com/codevirtus/membershipsystem/service/AuthenticationResponse.java
+/home/shepherd/projects/Membership/membership-system-core/security/src/main/java/com/codevirtus/membershipsystem/jwt/JwtRequestFilter.java
+/home/shepherd/projects/Membership/membership-system-core/security/src/main/java/com/codevirtus/membershipsystem/service/AuthenticationRequest.java
+/home/shepherd/projects/Membership/membership-system-core/security/src/main/java/com/codevirtus/membershipsystem/acesscontrol/SystemGroups.java

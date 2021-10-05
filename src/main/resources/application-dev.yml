@@ -1,0 +1,41 @@
+server:
+  port: 23235
+
+spring:
+  profiles:
+    active: dev
+  application:
+    name: vid-app-portal
+  jmx:
+    default-domain: ${spring.application.name}
+
+  datasource:
+    username: vid
+    password: "bPwWLDh+7#&P7uiyui7876g5vcf=dMR6mda=U$&H{GJ"
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.1.6:3306/vid_applications?autoReconnect=true&createDatabaseIfNotExist=true&useSSL=false&serverTimezone=Africa/Harare&rewriteBatchedStatements=true&nullCatalogMeansCurrent=true
+    initialization-mode: always
+  flyway:
+    user: vid
+    password: "bPwWLDh+7#&P7uiyui7876g5vcf=dMR6mda=U$&H{GJ"
+    schemas: vid_applications
+    url: jdbc:mysql://192.168.1.6:3306/vid_applications?autoReconnect=true&createDatabaseIfNotExist=true&useSSL=false&serverTimezone=Africa/Harare&rewriteBatchedStatements=true&nullCatalogMeansCurrent=true
+    baseline-on-migrate: true
+    validate-on-migrate: false
+  jpa:
+    hibernate:
+      ddl-auto: update
+      org.hibernate.envers.audit_table_suffix: _AUDIT_LOG
+    show-sql: false
+    database: mysql
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+
+  main:
+    allow-bean-definition-overriding: true
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 30MB
+

@@ -1,0 +1,17 @@
+/home/shepherd/projects/Membership/membership-system-core/audit-library/src/main/java/com/codevirtus/membershipsystem/auditlibrary/audit/AuditCommand.java
+/home/shepherd/projects/Membership/membership-system-core/audit-library/src/main/java/com/codevirtus/membershipsystem/auditlibrary/security/SecurityContextHolderIdentity.java
+/home/shepherd/projects/Membership/membership-system-core/audit-library/src/main/java/com/codevirtus/membershipsystem/auditlibrary/config/AuditSpringBeansFactory.java
+/home/shepherd/projects/Membership/membership-system-core/audit-library/src/main/java/com/codevirtus/membershipsystem/auditlibrary/audit/Action.java
+/home/shepherd/projects/Membership/membership-system-core/audit-library/src/main/java/com/codevirtus/membershipsystem/auditlibrary/audit/ActionStatus.java
+/home/shepherd/projects/Membership/membership-system-core/audit-library/src/main/java/com/codevirtus/membershipsystem/auditlibrary/aspect/AuditAspect.java
+/home/shepherd/projects/Membership/membership-system-core/audit-library/src/main/java/com/codevirtus/membershipsystem/auditlibrary/security/SecurityContextHolderIdentityImpl.java
+/home/shepherd/projects/Membership/membership-system-core/audit-library/src/main/java/com/codevirtus/membershipsystem/auditlibrary/annotations/Resource.java
+/home/shepherd/projects/Membership/membership-system-core/audit-library/src/main/java/com/codevirtus/membershipsystem/auditlibrary/annotations/Action.java
+/home/shepherd/projects/Membership/membership-system-core/audit-library/src/main/java/com/codevirtus/membershipsystem/auditlibrary/annotations/Origin.java
+/home/shepherd/projects/Membership/membership-system-core/audit-library/src/main/java/com/codevirtus/membershipsystem/auditlibrary/audit/CreateAuditEvent.java
+/home/shepherd/projects/Membership/membership-system-core/audit-library/src/main/java/com/codevirtus/membershipsystem/auditlibrary/audit/AuditTrailRepo.java
+/home/shepherd/projects/Membership/membership-system-core/audit-library/src/main/java/com/codevirtus/membershipsystem/auditlibrary/annotations/Auditable.java
+/home/shepherd/projects/Membership/membership-system-core/audit-library/src/main/java/com/codevirtus/membershipsystem/auditlibrary/audit/AuditTrailRepoImpl.java
+/home/shepherd/projects/Membership/membership-system-core/audit-library/src/main/java/com/codevirtus/membershipsystem/auditlibrary/audit/ActionType.java
+/home/shepherd/projects/Membership/membership-system-core/audit-library/src/main/java/com/codevirtus/membershipsystem/auditlibrary/audit/Resource.java
+/home/shepherd/projects/Membership/membership-system-core/audit-library/src/main/java/com/codevirtus/membershipsystem/auditlibrary/audit/Origin.java

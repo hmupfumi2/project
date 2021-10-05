@@ -1,0 +1,13 @@
+com/codevirtus/membershipsystem/acesscontrol/PlatformAuthorities.class
+com/codevirtus/membershipsystem/service/AuthenticationService.class
+com/codevirtus/membershipsystem/acesscontrol/PlatformGroupsDatabaseInitializer.class
+com/codevirtus/membershipsystem/jwt/JwtAuthenticationEntryPoint.class
+com/codevirtus/membershipsystem/acesscontrol/SystemGroups.class
+com/codevirtus/membershipsystem/jwt/JwtTokenUtil.class
+com/codevirtus/membershipsystem/service/AuthenticationResponse.class
+com/codevirtus/membershipsystem/service/AuthenticationRequest.class
+com/codevirtus/membershipsystem/JwtSecurityConfiguration.class
+com/codevirtus/membershipsystem/api/AuthenticationRestController.class
+com/codevirtus/membershipsystem/acesscontrol/PlatformAuthoritiesDatabaseInitializer.class
+com/codevirtus/membershipsystem/jwt/JwtRequestFilter.class
+com/codevirtus/membershipsystem/jwt/JwtUserDetailsService.class
